@@ -48,7 +48,7 @@ let products = [
             "code": "2389234",
             "stock": "25"
         }
-]
+];
 
 
 //endpoint para leer todos los productos
@@ -106,3 +106,4 @@ router.delete('/:id', (req, res) => {
 })
 
 export default router
+export { products };
